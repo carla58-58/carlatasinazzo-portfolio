@@ -72,36 +72,52 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Wine Route Mendoza",
+    des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
+    img: "/project-1.png",
+    iconLists: ["/mongodb.png", "/expressjs.png", "/re.svg", "/nodejs.png", "/javascript.png"],
+    link: "https://mern-tour-booking-website-frontend.onrender.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Animated Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website using Three.js 3D effects.",
+    img: "/project-2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/gsap.svg", "/javascript.png"],
+    link: "https://apple-website-carla.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Library Management System",
+    des: "Django Library Management System App with a SQLite Database.",
+    img: "/project-3.png",
+    iconLists: ["/django.png", "/sqlite.png", "/python.png"],
+    link: "https://onedrive.live.com/?cid=45999E192E8647EF&id=45999E192E8647EF%21s99664fef6fb74134a0e6e54e27d0fa0c&parId=root&o=OneUp",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Weather App",
+    des: "Dynamic weather web app using Spring Boot that fetches real-time weather data.",
+    img: "/project-4.png",
+    iconLists: ["/springboot.png", "/java.png"],
+    link: "https://onedrive.live.com/?cid=45999E192E8647EF&id=45999E192E8647EF%21s2d011a1513914db684d13164f12d75a2&parId=root&o=OneUp",
   },
+  /*{
+    id: 5,
+    title: "app5",
+    des: "fffff",
+    img: "/project-4.png",
+    iconLists: ["/springboot.png", "/java.png"],
+    link: "xxxx",
+  },
+  {
+    id: 6,
+    title: "app6",
+    des: "gggg",
+    img: "/project-4.png",
+    iconLists: ["/springboot.png", "/java.png"],
+    link: "xxx",
+  },*/
 ];
 
 export const testimonials = [
@@ -205,13 +221,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/carla58-58?tab=repositories",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/carla-tasinazzo-147783169/",
   },
 ];
