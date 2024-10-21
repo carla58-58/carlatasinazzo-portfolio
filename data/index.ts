@@ -92,7 +92,7 @@ export const projects = [
     des: "Django Library Management System App with a SQLite Database.",
     img: "/project-3.png",
     iconLists: ["/django.png", "/sqlite.png", "/python.png"],
-    link: "https://onedrive.live.com/?cid=45999E192E8647EF&id=45999E192E8647EF%21s99664fef6fb74134a0e6e54e27d0fa0c&parId=root&o=OneUp",
+    link: "https://1drv.ms/v/c/45999e192e8647ef/Ee9PZpm3bzRBoOblTifQ-gwByWxv4HI_WTgVU1XrzWyVaQ?e=zMNPKd",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Dynamic weather web app using Spring Boot that fetches real-time weather data.",
     img: "/project-4.png",
     iconLists: ["/springboot.png", "/java.png"],
-    link: "https://onedrive.live.com/?cid=45999E192E8647EF&id=45999E192E8647EF%21s2d011a1513914db684d13164f12d75a2&parId=root&o=OneUp",
+    link: "https://1drv.ms/v/c/45999e192e8647ef/ERUaAS2RE7ZNhNExZPEtdaIB-VvgcVJLG_hsG8yg2Dd03Q?e=EP7smb",
   },
   /*{
     id: 5,
