@@ -160,7 +160,7 @@ export const BentoGridItem = ({
               <div className="absolute -bottom-5 right-0">
                 {/* Only render Lottie on the client and only when copied is true */}
                 {typeof window !== "undefined" && copied && (
-                  <Lottie options={defaultOptions} height={200} width={400} />
+                  <Lottie animationData={defaultOptions.animationData} loop={defaultOptions.loop} autoplay={defaultOptions.autoplay} height={200} width={400} />
                 )}
               </div>
 
