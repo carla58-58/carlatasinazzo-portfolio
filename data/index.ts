@@ -1,24 +1,24 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "References", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I focus on learning and continuous improvement. Teamwork and open communication are essential for success.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/computer.avif",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I am available to work remotely in different time zones.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "I am continually learning to improve my:",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,17 +49,17 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a full-stack React Native Uber Clone Application",
+    description: "What's new?",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/b5.png",
     spareImg: "/grid.svg",
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let's connect and collaborate on exciting projects together!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -74,15 +74,15 @@ export const projects = [
     id: 1,
     title: "Wine Route Mendoza",
     des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
-    img: "/project-1.png",
+    img: "/project1.png",
     iconLists: ["/mongodb.png", "/expressjs.png", "/re.svg", "/nodejs.png", "/javascript.png"],
     link: "https://mern-tour-booking-website-frontend.onrender.com/",
   },
   {
     id: 2,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website using Three.js 3D effects.",
-    img: "/project-2.png",
+    title: "Animated Apple Iphone Clone",
+    des: "React Recreation of Apple iPhone 15 Pro website.",
+    img: "/project2.png",
     iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/gsap.svg", "/javascript.png"],
     link: "https://apple-website-carla.vercel.app/",
   },
@@ -90,15 +90,15 @@ export const projects = [
     id: 3,
     title: "Library Management System",
     des: "Django Library Management System App with a SQLite Database.",
-    img: "/project-3.png",
+    img: "/project3.png",
     iconLists: ["/django.png", "/sqlite.png", "/python.png"],
     link: "https://1drv.ms/v/c/45999e192e8647ef/Ee9PZpm3bzRBoOblTifQ-gwByWxv4HI_WTgVU1XrzWyVaQ?e=zMNPKd",
   },
   {
     id: 4,
     title: "Weather App",
-    des: "Dynamic weather web app using Spring Boot that fetches real-time weather data.",
-    img: "/project-4.png",
+    des: "Spring Boot Dynamic weather App that fetches real-time weather data.",
+    img: "/project4.png",
     iconLists: ["/springboot.png", "/java.png"],
     link: "https://1drv.ms/v/c/45999e192e8647ef/ERUaAS2RE7ZNhNExZPEtdaIB-VvgcVJLG_hsG8yg2Dd03Q?e=EP7smb",
   },
@@ -123,97 +123,55 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Carla was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carla's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Carla is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working alongside Carla has always been inspiring. She bring a unique blend of creativity and precision to every project, and her willingness to take on new challenges is truly admirable. Even in high-pressure situations, Carla remained calm, communicated clearly, and supported the team. I am excited to see her pursue a career in software development. I am confident that her strong work ethic and passion for learning will lead to great success in this new field. Anyone would be fortunate to have Carla on their team.",
+    name: "Nicolas Schiaffino",
+    title: "Project and Construction engineer",
+    img: "/profile1.jpg", 
   },
   {
     quote:
-      "Collaborating with Carla was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carla's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Carla is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've had the pleasure of working with Carla on several civil engineering projects, and I can confidently say that her analytical thinking and dedication to problem-solving are second to none. Carla consistently demonstrated a strong ability to learn new concepts quickly and adapt to changing project requirements. I have no doubt that these qualities, combined with their collaborative spirit and attention to detail, will make her an excellent software developer. I wholeheartedly support her transition into the tech industry.",
+    name: "Sandra Albiol",
+    title: "Project and Construction engineer",
+    img: "/profile2.jpg", 
   },
   {
     quote:
-      "Collaborating with Carla was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carla's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Carla is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Carla was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carla's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Carla is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Carla was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carla's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Carla is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+      "I have had the privilege of working with Carla on multiple projects throughout college, always with a very good disposition and discipline, providing innovative solutions to different projects. Carla consistently demonstrated strong leadership skills and a collaborative spirit, making her an invaluable member of any team. Her attention to detail and ability to adapt to new challenges ensured the success of our projects, even under tight deadlines. I am confident that she will continue to excel and make significant contributions in her future endeavors.",
+    name: "Sebastian Virdo",
+    title: "Project and Construction engineer",
+    img: "/profile3.jpg", 
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Higher Diploma in Science in Computing",
+    desc: "National College of Ireland, Dublin, Ireland",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "The Odin Project Bootcamp",
+    desc: "Self-directed online learning",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Specialization in Management Engineering",
+    desc: "National Technological University, Mendoza, Argentina",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Bachelor of Civil Engineering",
+    desc: "National University of Cuyo, Mendoza, Argentina",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.png",
   },
 ];
 

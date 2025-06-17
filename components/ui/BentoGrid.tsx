@@ -10,7 +10,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
 // Dynamically import Lottie with SSR disabled
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 export const BentoGrid = ({
   className,
@@ -50,8 +50,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["MongoDB", "ReactJS", "NodeJS"];
+  const rightLists = ["Java", "Python", "NextJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -77,9 +77,9 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: "rgb(4,7,29)",
+        background: "rgb(86, 137, 146) ",
         backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+          "linear-gradient(90deg, rgb(8, 8, 8) 0%, rgb(171, 45, 45) 100%)",
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
@@ -134,20 +134,20 @@ export const BentoGridItem = ({
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-lg text-center bg-background"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-background"></span>
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-background"></span>
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-lg text-center bg-background"
                   >
                     {item}
                   </span>
@@ -169,7 +169,7 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
+                otherClasses="!bg-background"
               />
             </div>
           )}

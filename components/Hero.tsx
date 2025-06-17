@@ -28,22 +28,21 @@ const Hero = () => {
        *  change bg color to bg-black-100 and reduce grid color from
        *  0.2 to 0.03
        */}
+       
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
+        className="h-screen w-full bg-background dark:bg-background dark:bg-grid-white/[0.03] bg-grid-background/[0.2]
+          absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+          className="absolute pointer-events-none inset-0 flex items-center justify-center bg-background dark:bg-background [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-          Next.js Dynamic Web 
+          My Web Portfolio 
           </p>
 
           {/**
@@ -57,12 +56,23 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Carla, a Full-stack Developer based in New Zealand.
+            Hi! I&apos;m Carla Tasinazzo, a Junior Full-stack Developer based in Australia.
           </p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            I am very proactive and passionate about learning new technologies.
+          </p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            I hold a Higher Diploma in Computer Science from the National College of Ireland
+            and I have further developed my skills through a software developer bootcamp.
+          </p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            I am ready to take the next step in my career and am available to start working immediately.
+          </p>
+          
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="More about me"
               icon={<FaLocationArrow />}
               position="right"
             />
