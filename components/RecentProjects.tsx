@@ -10,7 +10,7 @@ const RecentProjects = () => {
       <h1 className="heading">
         My <span className="text-purple">projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-14 mt-10">
         {projects.map((item) => (
           <div
             key={item.id}
