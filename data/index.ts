@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
     img: "/project1.png",
     iconLists: ["/mongodb.png", "/expressjs.png", "/re.svg", "/nodejs.png", "/javascript.png"],
-    link: "https://mern-tour-booking-website-frontend.onrender.com/",
+    link: "https://1drv.ms/v/c/45999e192e8647ef/Ea5JNzi2TYtCkVStAcymU3MBqFcm9s8o4dzNHh4YXLprvg?e=HghKIR/",
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ export const projects = [
     des: "Django Library Management System App with a SQLite Database.",
     img: "/project3.png",
     iconLists: ["/django.png", "/sqlite.png", "/python.png"],
-    link: "https://1drv.ms/v/c/45999e192e8647ef/Ee9PZpm3bzRBoOblTifQ-gwByWxv4HI_WTgVU1XrzWyVaQ?e=zMNPKd",
+    link: "https://1drv.ms/v/c/45999e192e8647ef/Ee9PZpm3bzRBoOblTifQ-gwBdAIdJyWtDJoBeX40Ukq7Kg?e=LtnFqb",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Spring Boot Dynamic weather App that fetches real-time weather data.",
     img: "/project4.png",
     iconLists: ["/springboot.png", "/java.png"],
-    link: "https://1drv.ms/v/c/45999e192e8647ef/ERUaAS2RE7ZNhNExZPEtdaIB-VvgcVJLG_hsG8yg2Dd03Q?e=EP7smb",
+    link: "https://1drv.ms/v/c/45999e192e8647ef/ERUaAS2RE7ZNhNExZPEtdaIBji8pnO3atmy4y8u42iggjw?e=TIhapl",
   },
   /*{
     id: 5,
