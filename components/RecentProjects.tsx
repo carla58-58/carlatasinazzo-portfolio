@@ -14,7 +14,7 @@ const RecentProjects = () => {
         {projects.map((item) => (
           <div
             key={item.id}
-            className="lg:min-h-[32.5rem] min-h-[25rem] flex items-center justify-center w-full sm:w-80 md:w-96 cursor-pointer"
+            className="lg:min-h-[32.5rem] min-h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] cursor-pointer"
             onClick={() => window.open(item.link, "_blank")}
             tabIndex={0}
             role="link"
