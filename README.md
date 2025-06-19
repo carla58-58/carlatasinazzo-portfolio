@@ -6,7 +6,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-
+5. 🤸 [Deployment](#deployment)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -69,5 +69,14 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+
+
+## <a name="Deployment">⚙️ Deployment</a>
+
+**Deployed on Render**
+
+Open [https://carlatasinazzo-portfolio.onrender.com/](https://carlatasinazzo-portfolio.onrender.com/) to view the project.
+
 
 Thank you for checking out my portfolio! If you’d like to collaborate or learn more about my work, please don’t hesitate to reach out.
