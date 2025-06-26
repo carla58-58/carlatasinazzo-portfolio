@@ -184,6 +184,6 @@ export const socialMedia = [
   {
     id: 2,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/carla-tasinazzo-147783169/",
+    url: "https://www.linkedin.com/in/carla-brenda-tasinazzo-albiol-147783169/",
   },
 ];
