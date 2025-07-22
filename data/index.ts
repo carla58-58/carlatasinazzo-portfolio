@@ -92,7 +92,7 @@ export const projects = [
     des: "Django Library Management System App with a SQLite Database.",
     img: "/project3.png",
     iconLists: ["/django.png", "/sqlite.png", "/python.png"],
-    link: "https://1drv.ms/v/c/45999e192e8647ef/Ee9PZpm3bzRBoOblTifQ-gwBdAIdJyWtDJoBeX40Ukq7Kg?e=LtnFqb",
+    link: "https://library-management-system-2hyr.onrender.com/",
   },
   {
     id: 4,
