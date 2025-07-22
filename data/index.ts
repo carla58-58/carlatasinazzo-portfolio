@@ -108,7 +108,7 @@ export const projects = [
     des: "ASP.NET Core MVC Finance App with a SQL Server Database.",
     img: "/project5.png",
     iconLists: ["/netcore.png", "/sqlserver.png", "/bootstrap.png", "/csharp.jpg", "/chartjs.jpg"],
-    link: "https://1drv.ms/v/c/45999e192e8647ef/EXbC_-_fjZ1BiWpjCSJcQREBBkoUW7cftCdMQp0KPsd7vQ?e=p4liE6",
+    link: "https://financeapp-nzxh.onrender.com",
   },
   {
     id: 6,
