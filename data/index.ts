@@ -110,14 +110,14 @@ export const projects = [
     iconLists: ["/netcore.png", "/sqlserver.png", "/bootstrap.png", "/csharp.jpg", "/chartjs.jpg"],
     link: "https://1drv.ms/v/c/45999e192e8647ef/EXbC_-_fjZ1BiWpjCSJcQREBBkoUW7cftCdMQp0KPsd7vQ?e=p4liE6",
   },
-  /*{
+  {
     id: 6,
-    title: "app6",
-    des: "gggg",
-    img: "/project-4.png",
-    iconLists: ["/springboot.png", "/java.png"],
-    link: "xxx",
-  },*/
+    title: "Zizi soda landing page",
+    des: "Next.js animated page, use of interactive 3D graphs and Prismic.",
+    img: "/project6.png",
+    iconLists: ["/nextjs.jpg", "/re.svg", "/three.svg", "/prismic.png", "/gsap.svg"],
+    link: "https://zizi-six.vercel.app/",
+  },
 ];
 
 export const testimonials = [
