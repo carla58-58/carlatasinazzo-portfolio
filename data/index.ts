@@ -105,9 +105,9 @@ export const projects = [
   {
     id: 5,
     title: "Finance App",
-    des: "ASP.NET Core MVC Finance App with a SQL Server Database.",
+    des: "ASP.NET Core MVC Finance App with a SQLite Database.",
     img: "/project5.png",
-    iconLists: ["/netcore.png", "/sqlserver.png", "/bootstrap.png", "/csharp.jpg", "/chartjs.jpg"],
+    iconLists: ["/netcore.png", "/sqlite.png", "/bootstrap.png", "/csharp.jpg", "/chartjs.jpg"],
     link: "https://financeapp-nzxh.onrender.com",
   },
   {
