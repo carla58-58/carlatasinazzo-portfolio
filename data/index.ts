@@ -75,7 +75,7 @@ export const projects = [
     title: "Wine Route Mendoza",
     des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
     img: "/project1.png",
-    iconLists: ["/mongodb.png", "/expressjs.png", "/re.svg", "/nodejs.png", "/javascript.png"],
+    iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
     link: "https://1drv.ms/v/c/45999e192e8647ef/Ea5JNzi2TYtCkVStAcymU3MBqFcm9s8o4dzNHh4YXLprvg?e=HghKIR/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Library Management System",
     des: "Django Library Management System App with a SQLite Database.",
     img: "/project3.png",
-    iconLists: ["/django.png", "/sqlite.png", "/python.png", "/bootstrap.png", "html.png"],
+    iconLists: ["/python.png", "/django.png", "/sqlite.png", "/bootstrap.png", "html.png"],
     link: "https://library-management-system-2hyr.onrender.com/",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     title: "Finance App",
     des: "ASP.NET Core MVC Finance App with a SQLite Database.",
     img: "/project5.png",
-    iconLists: ["/netcore.png", "/sqlite.png", "/bootstrap.png", "/csharp.jpg", "/chartjs.jpg"],
+    iconLists: ["/csharp.jpg", "/netcore.png", "/sqlite.png", "/chartjs.jpg", "docker.png"],
     link: "https://financeapp-nzxh.onrender.com",
   },
   {
