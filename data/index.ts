@@ -99,7 +99,7 @@ export const projects = [
     title: "Weather App",
     des: "Spring Boot Dynamic weather App that fetches real-time weather data.",
     img: "/project4.png",
-    iconLists: ["/springboot.png", "/java.png","/openweatherapi.jpg", "/bootstrap.png"],
+    iconLists: ["/springboot.png", "/java.png","/openweatherapi.jpg", "/bootstrap.png", "thymeleaf.png"],
     link: "https://weather-app-v5tu.onrender.com/",
   },
   {
