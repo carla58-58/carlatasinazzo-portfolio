@@ -100,7 +100,7 @@ export const projects = [
     des: "Spring Boot Dynamic weather App that fetches real-time weather data.",
     img: "/project4.png",
     iconLists: ["/springboot.png", "/java.png"],
-    link: "https://1drv.ms/v/c/45999e192e8647ef/ERUaAS2RE7ZNhNExZPEtdaIBji8pnO3atmy4y8u42iggjw?e=TIhapl",
+    link: "https://weather-app-v5tu.onrender.com/",
   },
   {
     id: 5,
