@@ -78,14 +78,14 @@ export const projects = [
     iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
     link: "https://1drv.ms/v/c/45999e192e8647ef/Ea5JNzi2TYtCkVStAcymU3MBqFcm9s8o4dzNHh4YXLprvg?e=HghKIR/",
   },
-  {
+  /*{
     id: 2,
     title: "Animated Apple Iphone Clone",
     des: "React Recreation of Apple iPhone 15 Pro website.",
     img: "/project2.png",
     iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/gsap.svg", "/javascript.png"],
     link: "https://apple-website-carla.vercel.app/",
-  },
+  },*/
   {
     id: 3,
     title: "Library Management System",
