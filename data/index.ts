@@ -70,14 +70,7 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Wine Route Mendoza",
-    des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
-    img: "/project1.png",
-    iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
-    link: "https://1drv.ms/v/c/45999e192e8647ef/Ea5JNzi2TYtCkVStAcymU3MBqFcm9s8o4dzNHh4YXLprvg?e=HghKIR/",
-  },
+
   /*{
     id: 2,
     title: "Animated Apple Iphone Clone",
@@ -89,10 +82,10 @@ export const projects = [
   {
     id: 3,
     title: "Library Management System",
-    des: "Django Library Management System App with a SQLite Database.",
+    des: "Django App with a PostgreSQL Database deployed on AWS.",
     img: "/project3.png",
-    iconLists: ["/python.png", "/django.png", "/sqlite.png", "/bootstrap.png", "html.png"],
-    link: "https://library-management-system-2hyr.onrender.com/",
+    iconLists: ["/python.png", "/django.png", "/postgresql.png", "/html.png", "aws.png"],
+    link: "http://44.202.167.102:8000/",
   },
   {
     id: 4,
@@ -117,6 +110,14 @@ export const projects = [
     img: "/project6.png",
     iconLists: ["/nextjs.jpg", "/re.svg", "/three.svg", "/prismic.png", "/gsap.svg"],
     link: "https://zizi-six.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Wine Route Mendoza",
+    des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
+    img: "/project1.png",
+    iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
+    link: "https://1drv.ms/v/c/45999e192e8647ef/Ea5JNzi2TYtCkVStAcymU3MBqFcm9s8o4dzNHh4YXLprvg?e=HghKIR/",
   },
 ];
 
@@ -147,10 +148,11 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Higher Diploma in Science in Computing",
+    title: "Higher Diploma in Science in Computing (Software Development)",
     desc: "National College of Ireland, Dublin, Ireland",
     className: "md:col-span-2",
     thumbnail: "/exp1.png",
+    link: "https://www.ncirl.ie/",
   },
   {
     id: 2,
@@ -158,20 +160,23 @@ export const workExperience = [
     desc: "Self-directed online learning",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.png",
+    link: "https://www.theodinproject.com/",
   },
   {
     id: 3,
-    title: "Specialization in Management Engineering",
+    title: "Specialization in Management Engineering (MBA)",
     desc: "National Technological University, Mendoza, Argentina",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.png",
+    link: "https://www.utn.edu.ar/es/",
   },
   {
     id: 4,
-    title: "Bachelor of Civil Engineering",
+    title: "Civil Engineer",
     desc: "National University of Cuyo, Mendoza, Argentina",
     className: "md:col-span-2",
     thumbnail: "/exp4.png",
+    link: "https://www.uncuyo.edu.ar/",
   },
 ];
 

@@ -55,18 +55,17 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Carla Tasinazzo, a Junior Full-stack Developer based in Australia.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
+            Hi! I&apos;m Carla Tasinazzo, a Full-stack Developer passionate about learning new technologies and building impactful solutions.
           </p>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I am very proactive and passionate about learning new technologies.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
+            I hold a Higher Diploma in Computer Science with a specialization in software development from the National College of Ireland, and I have further honed my skills through The Odin Project bootcamp.
           </p>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I hold a Higher Diploma in Computer Science from the National College of Ireland
-            and I have further developed my skills through a software developer bootcamp.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
+            Previously, I worked as a project manager in the civil engineering industry and hold a postgraduate diploma in project management. This experience strengthens my abilities in leadership, teamwork, and effective project delivery.
           </p>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I am ready to take the next step in my career and am available to start working immediately.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
+            I am eager to advance my career in software development and am available to start immediately.
           </p>
           
 

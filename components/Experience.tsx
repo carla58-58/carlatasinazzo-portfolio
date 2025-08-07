@@ -42,7 +42,31 @@ const Experience = () => {
                   {card.title}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.desc}
+                  {(() => {
+                    // Split description by comma, make first part clickable
+                    const parts = card.desc.split(",");
+                    if (parts.length > 1) {
+                      return <>
+                        <a
+                          href={card.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline text-purple-400"
+                        >
+                          {parts[0]}
+                        </a>,{parts.slice(1).join(",").trim()}
+                      </>;
+                    } else {
+                      return <a
+                        href={card.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline text-purple-400"
+                      >
+                        {card.desc}
+                      </a>;
+                    }
+                  })()}
                 </p>
               </div>
             </div>
