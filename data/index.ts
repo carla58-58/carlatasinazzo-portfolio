@@ -82,10 +82,10 @@ export const projects = [
   {
     id: 3,
     title: "Library Management System",
-    des: "Django App with a PostgreSQL Database deployed on AWS.",
+    des: "Django App with a SQLite Database.",
     img: "/project3.png",
-    iconLists: ["/python.png", "/django.png", "/postgresql.png", "/html.png", "aws.png"],
-    link: "http://44.202.167.102:8000/",
+    iconLists: ["/python.png", "/django.png", "/sqlite.png", "/html.png"],
+    link: "https://carlaatasinazzo.pythonanywhere.com/",
   },
   {
     id: 4,
