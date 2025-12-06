@@ -117,7 +117,7 @@ export const projects = [
     des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
     img: "/project1.png",
     iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
-    link: "https://mern-tour-booking-website-frontend.onrender.com/home",
+    link: "https://mern-tour-booking-website-frontend.onrender.com/",
   },
 ];
 
