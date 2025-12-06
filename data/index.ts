@@ -84,7 +84,7 @@ export const projects = [
     title: "Library Management System",
     des: "Django App with a SQLite Database deployed on PythonAnywhere.",
     img: "/project3.png",
-    iconLists: ["/python.png", "/django.png", "/sqlite.png", "/html.png"],
+    iconLists: ["/python.png", "/django.png", "/sqlite.png", "/html.png", "/pythonanywhere.png"],
     link: "https://carlaatasinazzo.pythonanywhere.com/",
   },
   {
