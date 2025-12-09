@@ -80,6 +80,14 @@ export const projects = [
     link: "https://apple-website-carla.vercel.app/",
   },*/
   {
+    id: 1,
+    title: "Wine Route Mendoza",
+    des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
+    img: "/project1.png",
+    iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
+    link: "https://mern-tour-booking-website-frontend.onrender.com/",
+  },
+  {
     id: 3,
     title: "Library Management System",
     des: "Django App with a SQLite Database deployed on PythonAnywhere.",
@@ -111,14 +119,7 @@ export const projects = [
     iconLists: ["/nextjs.jpg", "/re.svg", "/three.svg", "/prismic.png", "/gsap.svg"],
     link: "https://zizi-six.vercel.app/",
   },
-  {
-    id: 1,
-    title: "Wine Route Mendoza",
-    des: "Explore the variety of wine tours in Mendoza with this MERN Website.",
-    img: "/project1.png",
-    iconLists: ["/javascript.png", "/re.svg", "/nodejs.png","/expressjs.png", "/mongodb.png"],
-    link: "https://mern-tour-booking-website-frontend.onrender.com/",
-  },
+  
 ];
 
 export const testimonials = [
